@@ -11,6 +11,9 @@ Le but de ce projet est de concevoir une guitare en jouet avec des boutons qui j
 
 ## Électronique
 
+- Arduino Pro Micro
+  - Usage: logiciel de contrôle
+  - Acheté: https://www.amazon.co.uk/dp/B072BMYZ18/ref=pe_3187911_185740111_TE_item
 - DFPlayer Mini MP3 Player
   - Usages: (a) lire carte mémoire SD (b) décoder fichier MP3 (c) amplificateur pour haut-parleur
   - Acheté: https://www.ebay.co.uk/itm/122780734012
