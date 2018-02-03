@@ -11,7 +11,7 @@ Le but de ce projet est de concevoir une guitare en jouet avec des boutons qui j
 
 ## Électronique
 
-- Arduino Pro Micro
+- Arduino Nano
   - Usage: logiciel de contrôle
   - Acheté: https://www.amazon.co.uk/dp/B072BMYZ18/ref=pe_3187911_185740111_TE_item
 - DFPlayer Mini MP3 Player
@@ -46,3 +46,6 @@ Le but de ce projet est de concevoir une guitare en jouet avec des boutons qui j
     - Un transistor pour éteindre le module MP3 quand on ne s'en sert pas (pour réduire la consommation)
     - Pas facile de le choisir par contre (trop de choix)
     - https://www.reddit.com/r/AskElectronics/comments/7trtjw/help_pick_a_transistor/
+
+- Notes a pas oublier
+  - https://www.reddit.com/r/AskElectronics/comments/7uypij/help_review_mosfet_circuit_design/ So, just keep in mind that you should float the UART connection in the microcontroller (aka set the pins to input) before turning off the mosfet.
